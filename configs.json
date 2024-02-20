@@ -1,0 +1,786 @@
+{
+  "recovery_params": {
+    "sepolia-alpha": {
+      "api_url": "https://recovery.braavos.app/pubkey-to-address",
+      "impl_address_cairo2": {
+        "braavos": [
+          "0x816dd0297efc55dc1e7559020a3a825e81ef734b558f03c83325d4da7e6253"
+        ]
+      },
+      "impl_address": {
+        "braavos": [
+          "0x5dec330eebf36c8672b60db4a718d44762d3ae6d1333e553197acb47ee5a062",
+          "0x5aa23d5bb71ddaa783da7ea79d405315bafa7cf0387a74f4593578c3e9e6570"
+        ],
+        "argent": []
+      },
+      "proxy_hash": { "braavos": [], "argent": [] }
+    },
+    "goerli-alpha": {
+      "api_url": "https://recovery.braavos.app/pubkey-to-address",
+      "impl_address_cairo2": {
+        "braavos": [
+          "0x816dd0297efc55dc1e7559020a3a825e81ef734b558f03c83325d4da7e6253"
+        ]
+      },
+      "impl_address": {
+        "braavos": [
+          "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
+          "0x8293870595426ae3190bfcc8013a553d347ad17b0274bd8ba19606f4d8e886",
+          "0x2fe18c4f27ab51fd04847060a30c7f049ab8bddb3d7fe45ad641e25c5b01f0d",
+          "0x2bf9a599389db1a4099dae0b6bc6e2963a4f1ddd36e5b894dfc696b4341588a",
+          "0x2c1824892b36134b59da621a07a731bc1f8ebaabf3dbb7a487c7bbebe017145",
+          "0x222f474bc7de126c517bf7954cb421932f4fa16de4666971df5b1154ea0ed37",
+          "0x3ae692aaf1ded26a0b58cf42490f757563850acea887ed57b4894fee8279063",
+          "0x2fe77380d0e5919191210a0374ace48f785e6cda2d7feeedf492e0a5e7e61a8",
+          "0x2c2b8f559e1221468140ad7b2352b1a5be32660d0bf1a3ae3a054a4ec5254e4",
+          "0x5dec330eebf36c8672b60db4a718d44762d3ae6d1333e553197acb47ee5a062",
+          "0x5aa23d5bb71ddaa783da7ea79d405315bafa7cf0387a74f4593578c3e9e6570",
+          "0x03e083825add177a5998468236b54c7332f4a80640fc01dbe5f813b12904ed3c"
+        ],
+        "argent": [
+          "0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"
+        ]
+      },
+      "proxy_hash": {
+        "braavos": [],
+        "argent": [
+          "0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"
+        ]
+      }
+    },
+    "mainnet-alpha": {
+      "api_url": "https://recovery.braavos.app/pubkey-to-address",
+      "impl_address_cairo2": {
+        "braavos": [
+          "0x816dd0297efc55dc1e7559020a3a825e81ef734b558f03c83325d4da7e6253"
+        ]
+      },
+      "impl_address": {
+        "braavos": [
+          "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
+          "0x3ae692aaf1ded26a0b58cf42490f757563850acea887ed57b4894fee8279063",
+          "0x5dec330eebf36c8672b60db4a718d44762d3ae6d1333e553197acb47ee5a062",
+          "0x5aa23d5bb71ddaa783da7ea79d405315bafa7cf0387a74f4593578c3e9e6570",
+          "0x222f474bc7de126c517bf7954cb421932f4fa16de4666971df5b1154ea0ed37",
+          "0x2c2b8f559e1221468140ad7b2352b1a5be32660d0bf1a3ae3a054a4ec5254e4",
+          "0x03e083825add177a5998468236b54c7332f4a80640fc01dbe5f813b12904ed3c"
+        ],
+        "argent": [
+          "0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"
+        ]
+      },
+      "proxy_hash": {
+        "braavos": [],
+        "argent": [
+          "0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"
+        ]
+      }
+    },
+    "devnet": {
+      "impl_address": {
+        "braavos": [
+          "0x69577e6756a99b584b5d1ce8e60650ae33b6e2b13541783458268f07da6b38a",
+          "0x8293870595426ae3190bfcc8013a553d347ad17b0274bd8ba19606f4d8e886"
+        ],
+        "argent": [
+          "0x3e327de1c40540b98d05cbcb13552008e36f0ec8d61d46956d2f9752c294328"
+        ]
+      },
+      "proxy_hash": {
+        "braavos": [],
+        "argent": [
+          "0x25ec026985a3bf9d0cc1fe17326b245dfdc3ff89b8fde106542a3ea56c5a918"
+        ]
+      }
+    }
+  },
+  "rpc_nodes_v6": {
+    "mainnet-alpha": [
+      "http://51.91.16.50:6060"
+    ],
+    "goerli-alpha": [
+      "https://starknet-testnet.blastapi.io/bfeb1bf9-a5b6-48f4-b0f2-466045680470/rpc/v0_6"
+    ],
+    "sepolia-alpha": [
+      "https://starknet-sepolia.blastapi.io/bfeb1bf9-a5b6-48f4-b0f2-466045680470/rpc/v0_6"
+    ]
+  },
+  "swap": {
+    "goerli-alpha": [
+      {
+        "id": "myswap",
+        "contract": "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334",
+        "pools": {
+          "1": {
+            "poolName": "USDC/ETH",
+            "tokenAAddress": "0x5a643907b9a4bc6a55e9069c4fd5fd1f5c79a22470690f75556c4736e34426",
+            "tokenBAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"
+          },
+          "2": {
+            "poolName": "DAI/ETH",
+            "tokenAAddress": "0x3e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9",
+            "tokenBAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"
+          },
+          "3": {
+            "poolName": "USDC/DAI",
+            "tokenAAddress": "0x5a643907b9a4bc6a55e9069c4fd5fd1f5c79a22470690f75556c4736e34426",
+            "tokenBAddress": "0x3e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9"
+          },
+          "4": {
+            "poolName": "MYSWAP tETH/ETH",
+            "tokenAAddress": "0x42b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+            "tokenBAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"
+          },
+          "numberOfPools": 4
+        },
+        "tokens": [
+          "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "0x3e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9",
+          "0x5a643907b9a4bc6a55e9069c4fd5fd1f5c79a22470690f75556c4736e34426"
+        ]
+      }
+    ],
+    "mainnet-alpha": [
+      {
+        "id": "myswap",
+        "contract": "0x10884171baf1914edc28d7afb619b40a4051cfae78a094a55d230f19e944a28",
+        "pools": {
+          "1": {
+            "poolName": "ETH/USDC",
+            "tokenAAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "tokenBAddress": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8"
+          },
+          "2": {
+            "poolName": "DAI/ETH",
+            "tokenAAddress": "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+            "tokenBAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"
+          },
+          "3": {
+            "poolName": "WBTC/USDC",
+            "tokenAAddress": "0x3fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac",
+            "tokenBAddress": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8"
+          },
+          "4": {
+            "poolName": "ETH/USDT",
+            "tokenAAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "tokenBAddress": "0x68f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8"
+          },
+          "5": {
+            "poolName": "MYSWAP USDC/USDT",
+            "tokenAAddress": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+            "tokenBAddress": "0x68f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8"
+          },
+          "6": {
+            "poolName": "MYSWAP DAI/USDC",
+            "tokenAAddress": "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+            "tokenBAddress": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8"
+          },
+          "7": {
+            "poolName": "MYSWAP tETH/ETH",
+            "tokenAAddress": "0x42b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+            "tokenBAddress": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"
+          },
+          "numberOfPools": 7
+        },
+        "tokens": [
+          "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+          "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+          "0x68f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8",
+          "0x42b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+          "0x3fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac"
+        ]
+      }
+    ]
+  },
+  "myswap_cl": {
+    "goerli-alpha": {
+      "pools": {
+        "0x6466c43edbe6b3c35b5048efab935d946f2192ed55d9f89cd911eb88a867fb2": {
+          "token0": "0x42b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+          "token1": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "fee": 100
+        },
+        "0x35335db8ab0e033e0cd9fca2478b38cfd6cb6dfa24a37f3f65a66e402da0b2e": {
+          "token0": "0x03e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9",
+          "token1": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "fee": 100
+        },
+        "0x53eeeef77082cf403f77e79411651234bd4346be100d0d42540e7055f343c2": {
+          "token0": "0x005a643907b9a4bc6a55e9069c4fd5fd1f5c79a22470690f75556c4736e34426",
+          "token1": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "fee": 10000
+        },
+        "0x5d0d9be14c0c4041857ec9b079b3ceac7a2046ca9f28bf4aa79f92af55e7764": {
+          "token0": "0x005a643907b9a4bc6a55e9069c4fd5fd1f5c79a22470690f75556c4736e34426",
+          "token1": "0x03e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9",
+          "fee": 500
+        }
+      }
+    },
+    "mainnet-alpha": {
+      "pools": {
+        "0x5037c758c9d4d43331ad3eb3b67b1707bb5e9356caeca66fee9039993bd2931": {
+          "token0": "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+          "token1": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "fee": 500
+        },
+        "0x71273c5c5780b4be42d9e6567b1b1a6934f43ab8abaf975c0c3da219fc4d040": {
+          "token0": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "token1": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+          "fee": 500
+        },
+        "0x30baaaf1b243f6e74c656f98dcb24b98687dcbe783d25f35854148c4c602d41": {
+          "token0": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "token1": "0x68f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8",
+          "fee": 500
+        },
+        "0x9e27aa370ad0003c682f450b3210bdc0d15f9497d97f66ca7097e4f5174eec": {
+          "token0": "0x124aeb495b947201f5fac96fd1138e326ad86195b98df6dec9009158a533b49",
+          "token1": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "fee": 3000
+        },
+        "0x6466c43edbe6b3c35b5048efab935d946f2192ed55d9f89cd911eb88a867fb2": {
+          "token0": "0x42b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+          "token1": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+          "fee": 100
+        },
+        "0x2607fa508399dd986c402d1c1c645d00bdec98363120a319f75c6911b46c437": {
+          "token0": "0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+          "token1": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+          "fee": 100
+        },
+        "0x7c5b7061e9e2e233b6ba9e084c3574c6575495721b18344c251d0234e1a77a3": {
+          "token0": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+          "token1": "0x68f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8",
+          "fee": 100
+        },
+        "0x27ee186f747e25bbbee5875754b8228730cc8f23ddf9492e63900a2b77d8a21": {
+          "token0": "0x3fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac",
+          "token1": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+          "fee": 3000
+        }
+      }
+    }
+  },
+  "known_protocols": {
+    "MY_SWAP": {
+      "displayName": "mySwap v1",
+      "hostnames": ["v1.myswap.xyz"],
+      "contracts": {
+        "myswap_address_legacy": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x71faa7d6c3ddb081395574c5a6904f4458ff648b66e2123b877555d9ae0260e"
+            ]
+          }
+        },
+        "myswap_address_2": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334"
+            ],
+            "mainnet-alpha": [
+              "0x018a439bcbb1b3535a6145c1dc9bc6366267d923f60a84bd0c7618f33c81d334",
+              "0x10884171baf1914edc28d7afb619b40a4051cfae78a094a55d230f19e944a28"
+            ]
+          }
+        },
+        "myswap_liquidity_tokens": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x895a214b06582050056ad5dd29dd8086a82d9159f023ab4d21d6fa1a2985eb",
+              "0x1550ce85c20f616af7eec81b3a1c4d4cc2ca99140e68b8092256bdff15e7df9",
+              "0x21312730d9bac8678adfaf52f7a4471decbca5b502ac05c223e627e78c7087a"
+            ],
+            "mainnet-alpha": [
+              "0x22b05f9396d2c48183f6deaf138a57522bcc8b35b67dee919f76403d1783136",
+              "0x7c662b10f409d7a0a69c8da79b397fd91187ca5f6230ed30effef2dceddc5b3"
+            ]
+          }
+        }
+      }
+    },
+    "MY_SWAP_CL": {
+      "displayName": "mySwap CL",
+      "hostnames": ["www.myswap.xyz"],
+      "contracts": {
+        "myswap_cl_nft_address": {
+          "addresses": {
+            "mainnet-alpha": [
+              "0xfff107e2403123c7df78d91728a7ee5cfd557aec0fa2d2bdc5891c286bbfff"
+            ],
+            "goerli-alpha": [
+              "0x052d99ab5835a0c295567dcdd40e9e281378d26d02ecca7b31e33dea99bc02ea"
+            ]
+          }
+        },
+        "myswap_cl_address": {
+          "addresses": {
+            "mainnet-alpha": [
+              "0x01114c7103e12c2b2ecbd3a2472ba9c48ddcbf702b1c242dd570057e26212111"
+            ],
+            "goerli-alpha": [
+              "0x0436924c4ed166d3c283d516adc424976cfccba108e3a0e3f3fc1ef319e23aa7"
+            ]
+          }
+        }
+      }
+    },
+    "ASTRALY": {
+      "displayName": "Astraly",
+      "hostnames": ["testnet.astraly.xyz", "astraly.xyz"],
+      "contracts": {
+        "astraly_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x02810b322f1709382244cebec85e47098d2b913e910ae5d3650aaa46ba6526fe"
+            ]
+          }
+        },
+        "astraly_pool_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x5ef67d8c38b82ba699f206bf0db59f1828087a710bad48cc4d51a2b0da4c29"
+            ]
+          }
+        }
+      }
+    },
+    "STARKGATE": {
+      "displayName": "StarkGate",
+      "hostnames": ["goerli.starkgate.starknet.io", "starkgate.starknet.io"]
+    },
+    "BRIQ": {
+      "displayName": "Briq",
+      "hostnames": ["briq.construction"],
+      "contracts": {
+        "briq_address": {
+          "implements": ["ERC721"],
+          "addresses": {
+            "goerli-alpha": [
+              "0x0266b1276d23ffb53d99da3f01be7e29fa024dd33cd7f7b1eb7a46c67891c9d0"
+            ]
+          }
+        }
+      }
+    },
+    "ASPECT": {
+      "displayName": "Aspect",
+      "hostnames": ["testnet.aspect.co", "aspect.co"],
+      "contracts": {
+        "aspect_collection": {
+          "implements": ["ERC721"],
+          "addresses": {
+            "goerli-alpha": [
+              "0x04e34321e0bce0e4ff8ff0bcb3a9a030d423bca29a9d99cbcdd60edb9a2bf03a",
+              "0x03090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c"
+            ],
+            "mainnet-alpha": [
+              "0x03090623ea32d932ca1236595076b00702e7d860696faf300ca9eb13bfe0a78c"
+            ]
+          }
+        },
+        "aspect_operator": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x37c320cf53f24747cb6afd1c23d0bf9ca33dcf8840764df11f8f8c8c0cd685c",
+              "0x05841326c67a6806308d60c74d69e8a6895a254689f2e01a2f3c133e6ce733c5",
+              "0x006fcf30a53fdc33c85ab428d6c481c5d241f1de403009c4e5b66aeaf3edc890"
+            ],
+            "mainnet-alpha": [
+              "0x02a92f0f860bf7c63fb9ef42cff4137006b309e0e6e1484e42d0b5511959414d"
+            ]
+          }
+        }
+      }
+    },
+    "JEDI_SWAP": {
+      "displayName": "JediSwap",
+      "hostnames": ["app.testnet.jediswap.xyz", "app.jediswap.xyz"],
+      "contracts": {
+        "jedi_swap_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x01ea2f12a70ad6a052f99a49dace349996a8e968a0d6d4e9ec34e0991e6d5e5e",
+              "0x012b063b60553c91ed237d8905dff412fba830c5716b17821063176c6c073341",
+              "0x2bcc885342ebbcbcd170ae6cafa8a4bed22bb993479f49806e72d96af94c965"
+            ],
+            "mainnet-alpha": [
+              "0x41fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023"
+            ]
+          }
+        },
+        "jedi_swap_zap_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x0263acca23357479031157e30053fe10598077f24f427ac1b1de85487f5cd124",
+              "0x07e4a2e2ad496c7572228d922a50e656b5791a6f09818fb709e697f460f55735",
+              "0x073e3ccd627283aed4fa3940aa2bdb4d2c702e8e44c99b6851c019222558310f"
+            ],
+            "mainnet-alpha": [
+              "0x29a303b928b9391ce797ec27d011d3937054bee783ca7831df792bae00c925c"
+            ]
+          }
+        }
+      }
+    },
+    "MINT_SQUARE": {
+      "displayName": "MintSquare",
+      "hostnames": ["mintsquare.io"],
+      "contracts": {
+        "mintsquare_collection": {
+          "implements": ["ERC721"],
+          "addresses": {
+            "goerli-alpha": [
+              "0x064bfed736951e98e16fedfd4605960879251f59f2f14427a2ae88a48f379801",
+              "0x2f13075210b7252c826eafdc09d9d77ef272f582947f7adbd44ef79eae0062c"
+            ],
+            "mainnet-alpha": [
+              "0x07861c4e276294a7e859ff0ae2eec0c68300ad9cbb43219db907da9bad786488",
+              "0x04a3621276a83251b557a8140e915599ae8e7b6207b067ea701635c0d509801e"
+            ]
+          }
+        },
+        "mintsquare_marketplace": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x033f80aa81bdc938a0793a5bfc879b86c687b366744b16ee03caa68e204c4df2",
+              "0x05bc8cc601c5098e20e9d9d74e86cfb0ec737f6f3ac571914dbe4f74aa249786"
+            ],
+            "mainnet-alpha": [
+              "0x0713273b1982c3b870b963418843ff8cbdb8f92481cd7f663f0f0e1c94848833",
+              "0x079b882cb8200c1c1d20e849a2ef19124b0b8985358c1313ea6af588cfe4fec8"
+            ]
+          }
+        },
+        "mintsquare_marketplace_manager": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c"
+            ],
+            "mainnet-alpha": [
+              "0x0423c040595731d6c4a3127e8def5b32b94ea81da8c79c17759202fd7417797c"
+            ]
+          }
+        },
+        "mintsquare_auction_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x038e8a53c92fff5e797d348b99c23ade60d86b835d61b3b70e5bf7920c623588"
+            ],
+            "mainnet-alpha": [
+              "0x07a16e9f4608c60704d6b1dfcea6354857ce106281b8986ed9afdecff231f957"
+            ]
+          }
+        }
+      }
+    },
+    "PXLS": {
+      "displayName": "pxls",
+      "hostnames": ["pxls.wtf"],
+      "contracts": {
+        "pxls_erc721": {
+          "implements": ["ERC721"],
+          "addresses": {
+            "goerli-alpha": [
+              "0x07ffe4bd0b457e10674a2842164b91fea646ed4027d3b606a0fcbf056a4c8827"
+            ],
+            "mainnet-alpha": [
+              "0x045963ea13d95f22b58a5f0662ed172278e6b420cded736f846ca9bde8ea476a"
+            ]
+          }
+        },
+        "pxls_drawer": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x0621b85c17b616d3ad91eb8787f5cc18d44c3792564a77548a45bd65a7c32eb6"
+            ],
+            "mainnet-alpha": [
+              "0x03f91e81765e37ff745af38283bd6b9ffbb5c7b1be89c3544051ac3af7b51a8a"
+            ]
+          }
+        }
+      }
+    },
+    "10K_SWAP": {
+      "displayName": "10KSwap",
+      "hostnames": ["10kswap.com"],
+      "contracts": {
+        "10k_swap_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x00975910cd99bc56bd289eaaa5cee6cd557f0ddafdb2ce6ebea15b158eb2c664"
+            ],
+            "mainnet-alpha": [
+              "0x07a6f98c03379b9513ca84cca1373ff452a7462a3b61598f0af5bb27ad7f76d1"
+            ]
+          }
+        }
+      }
+    },
+    "STARKNET_ID": {
+      "displayName": "Starknet.id",
+      "hostnames": ["goerli.app.starknet.id", "app.starknet.id"],
+      "contracts": {
+        "starknet_id_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x0798e884450c19e072d6620fefdbeb7387d0453d3fd51d95f5ace1f17633d88b",
+              "0x0783a9097b26eae0586373b2ce0ed3529ddc44069d1e0fbc4f66d42b69d6850d"
+            ],
+            "mainnet-alpha": [
+              "0x05dbdedc203e92749e2e746e2d40a768d966bd243df04a6b712e222bc040a9af"
+            ]
+          }
+        },
+        "starknet_id_domain_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x5cf267a0af6101667013fc6bd3f6c11116a14cda9b8c4b1198520d59f900b17",
+              "0x003bab268e932d2cecd1946f100ae67ce3dff9fd234119ea2f6da57d16d29fce"
+            ],
+            "mainnet-alpha": [
+              "0x06ac597f8116f886fa1c97a23fa4e08299975ecaf6b598873ca6792b9bbfb678"
+            ]
+          }
+        },
+        "starknet_id_subdomain_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x0660b2cd3c93528d4edf790610404414ba3f03e0d45c814d686d628583cb34de"
+            ],
+            "mainnet-alpha": [
+              "0x3448896d4a0df143f98c9eeccc7e279bf3c2008bda2ad2759f5b20ed263585f"
+            ]
+          }
+        }
+      }
+    },
+    "ALPHA_ROAD": {
+      "displayName": "Alpha Road",
+      "hostnames": ["testnet.app.alpharoad.fi"],
+      "contracts": {
+        "alpha_road_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x4aec73f0611a9be0524e7ef21ab1679bdf9c97dc7d72614f15373d431226b6a"
+            ],
+            "mainnet-alpha": []
+          }
+        }
+      }
+    },
+    "SITH_SWAP": {
+      "displayName": "SithSwap",
+      "hostnames": ["app.sithswap.com"],
+      "contracts": {
+        "sith_swap_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x4f50f31cd9f85757171c5c7dbab78b9c5e07b32b9a654f518dafea9aa269b92"
+            ],
+            "mainnet-alpha": []
+          }
+        }
+      }
+    },
+    "ZIGZAG": {
+      "displayName": "ZigZag",
+      "hostnames": ["mammoth.zigzag.exchange"],
+      "contracts": {
+        "zigzag_token_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x028465d1158a3e3102052d14a44fbbe366a1b2e40fbb3c6d9701533b2a74e3b7",
+              "0x06b90243d3e73da878727d8456af8d623c4b5a176d8292b7a41d33e4ddb962b1",
+              "0x032b944f02d67fbfd15f74830135116661798b25cad39d8912cb0dd75b1e93bd",
+              "0x043e455d7aa89579e58147464ae06e69914ed14330048ec269014de11692eda0"
+            ],
+            "mainnet-alpha": []
+          }
+        },
+        "zigzag_liquidity_address": {
+          "addresses": {
+            "goerli-alpha": [
+              "0x44fdf484dcffbd49a74fbe939f1b779cedbceaa2c7bc704163eddf3d38cfffb"
+            ],
+            "mainnet-alpha": []
+          }
+        }
+      }
+    },
+    "ORBITER_FINANCE": {
+      "displayName": "Orbiter Finance",
+      "hostnames": ["www.orbiter.finance"],
+      "contracts": {
+        "orbiter_finance_address": {
+          "addresses": {
+            "goerli-alpha": [],
+            "mainnet-alpha": [
+              "0x0173f81c529191726c6e7287e24626fe24760ac44dae2a1f7e02080230f8458b"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "v1_fee_multiplier": {
+    "goerli-alpha": 1.3,
+    "sepolia-alpha": 1.3,
+    "mainnet-alpha": 1.3
+  },
+  "v3_fee_multiplier": {
+    "goerli-alpha": { "amount": 1.3, "price": 1 },
+    "sepolia-alpha": { "amount": 1.3, "price": 1 },
+    "mainnet-alpha": { "amount": 1.3, "price": 1 }
+  },
+  "sns": {
+    "mainnet-alpha": {
+      "starknet_id": "0x6ac597f8116f886fa1c97a23fa4e08299975ecaf6b598873ca6792b9bbfb678",
+      "braavos_subdomain": "0x3448896d4a0df143f98c9eeccc7e279bf3c2008bda2ad2759f5b20ed263585f",
+      "min_len": 4
+    },
+    "goerli-alpha": {
+      "starknet_id": "0x003bab268e932d2cecd1946f100ae67ce3dff9fd234119ea2f6da57d16d29fce",
+      "braavos_subdomain": "0x0660b2cd3c93528d4edf790610404414ba3f03e0d45c814d686d628583cb34de",
+      "min_len": 4
+    }
+  },
+  "call_contract_aggregator": {
+    "mainnet-alpha": {
+      "contract_address": "0x163dd8182a69972b9fc7e95eb0be92b731680212beddfede2eff4ffcfa28bfb"
+    },
+    "sepolia-alpha": {
+      "contract_address": "0x163dd8182a69972b9fc7e95eb0be92b731680212beddfede2eff4ffcfa28bfb"
+    },
+    "goerli-alpha": {
+      "contract_address": "0x163dd8182a69972b9fc7e95eb0be92b731680212beddfede2eff4ffcfa28bfb"
+    },
+    "goerli-alpha-2": {
+      "contract_address": "0x163dd8182a69972b9fc7e95eb0be92b731680212beddfede2eff4ffcfa28bfb"
+    },
+    "integration": {
+      "contract_address": "0x163dd8182a69972b9fc7e95eb0be92b731680212beddfede2eff4ffcfa28bfb"
+    },
+    "devnet": {
+      "contract_address": "0x163dd8182a69972b9fc7e95eb0be92b731680212beddfede2eff4ffcfa28bfb"
+    }
+  },
+  "dapps": {
+    "mainnet-alpha": [
+      "myswapcl",
+      "stakepool",
+      "STARKNET_ID",
+      "realms",
+      "STARK_SHEET",
+      "GOL2",
+      "AVNU",
+      "zklend",
+      "flex",
+      "pyramid",
+      "BRIQ",
+      "NINTH",
+      "ALMANAC",
+      "fibrous",
+      "JEDI_SWAP",
+      "10K_SWAP",
+      "SITH_SWAP",
+      "carmineoptions",
+      "nostra",
+      "MY_SWAP",
+      "ekubo",
+      "hashstack"
+    ],
+    "goerli-alpha": [
+      "myswapcl",
+      "STARKNET_ID",
+      "STARK_SHEET",
+      "lootsurvivor",
+      "realms",
+      "AVNU",
+      "BRIQ",
+      "GOL2",
+      "starkpill",
+      "10K_SWAP",
+      "JEDI_SWAP",
+      "SITH_SWAP",
+      "carmineoptions",
+      "HASHSTACK",
+      "ALMANAC",
+      "NINTH",
+      "NOSTRA",
+      "YAGI_FINANCE",
+      "lotus",
+      "MY_SWAP",
+      "ekubo"
+    ]
+  },
+  "secp256r1_gas": {
+    "goerli-alpha": { "58256001704608589532901680": 2350 },
+    "sepolia-alpha": { "58256001704608589532901680": 2350 },
+    "mainnet-alpha": { "58256001704608589532901680": 2350 }
+  },
+  "sha256_gas": {
+    "goerli-alpha": { "58256020151352663242453040": 100 },
+    "sepolia-alpha": { "58256020151352663242453040": 100 },
+    "mainnet-alpha": { "58256020151352663242453040": 100 }
+  },
+  "v0_upgradable": true,
+  "staking": {
+    "direct": {
+      "goerli-alpha": {
+        "contract_address": "0x072d7449f887ae39f864380e19022bb98e8b50233aa23f9b8e422c32bf56a43b",
+        "reward_token_address": "0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+        "min_staking": "0.0000001",
+        "min_withdrawal": "0.0000001",
+        "min_staking_ne": 0,
+        "est_deposit_time": 57600000,
+        "est_withdrawal_time": 57600000
+      },
+      "mainnet-alpha": {
+        "contract_address": "0x074c31eb40b4f704814a8b9764889f21a7b12464765c4e235ade9b7dfff63660",
+        "reward_token_address": "0x042b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2",
+        "min_staking": "0.01",
+        "min_withdrawal": "0.000000000000000001",
+        "min_staking_ne": 0,
+        "est_deposit_time": 57600000,
+        "est_withdrawal_time": 57600000
+      }
+    },
+    "boost": {
+      "goerli-alpha": {
+        "contract_address": "0x05d3623995d517d18fe7be56280a94706333e7d16638c30faf87b857573e0b6c",
+        "reward_token_address": "0x28189e3e0dfa5f17528dfb084f2d8637f7f2ec44e902de1f574ef3dbdc24a84",
+        "min_staking": "0.0000001",
+        "min_withdrawal": "0.0000001",
+        "min_staking_ne": 0,
+        "est_deposit_time": 57600000,
+        "est_withdrawal_time": 57600000
+      },
+      "mainnet-alpha": {
+        "contract_address": "0x5abfa46fe9bf3323dfe801da51174729c2b3dd060b80575b29c015245899d74",
+        "reward_token_address": "0x014e644c20bd5f9888033d2093c8ba3334caa0c7d15ed142962a9bebf36cc7e0",
+        "min_staking": "0.01",
+        "min_withdrawal": "0.000000000000000001",
+        "min_staking_ne": 0,
+        "est_deposit_time": 57600000,
+        "est_withdrawal_time": 57600000
+      }
+    }
+  },
+  "price_api": "https://price.braavos.app",
+  "apr_api": "https://xiytzmujw0.execute-api.us-east-1.amazonaws.com/prod",
+  "moa_assert": {
+    "goerli-alpha": { "extra": 2250000000000000, "buffer": 1.5 },
+    "goerli-alpha-2": { "extra": 2250000000000000, "buffer": 1.5 },
+    "mainnet-alpha": { "extra": 2250000000000000, "buffer": 1.5 }
+  },
+  "strk_celebration_tweets": [
+    {
+      "message": "Got STRK vibes in @myBraavos wallet 🎉",
+      "url": "https://tweets.braavos.app/2/index.html"
+    }
+  ]
+}
